@@ -142,7 +142,6 @@ This repository contains educational materials for personal use. Please respect 
 
 ---
 
-**📧 Contact**: [Your Email/Profile]  
 **🏫 Institution**: Dundalk Institute of Technology  
 **🎯 Programme**: Master of Science in Data Analytics  
 **📅 Cohort**: 2024-2026
