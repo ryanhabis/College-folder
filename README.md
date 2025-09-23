@@ -77,14 +77,8 @@ msc-data-analytics/
 │   └── 📁 useful-links/
 │
 ├── 📁 notes/
-│   ├── 📁 lecture-notes/
-│   ├── 📁 study-guides/
-│   └── 📁 reflections/
-│
-└── 📁 templates/
-    ├── 📁 assignment-template/
-    ├── 📁 project-template/
-    └── 📁 note-taking-template/
+    ├── 📁 lecture-notes/
+    └── 📁 study-guides/
 ```
 
 ## 🎓 Learning Outcomes
