@@ -1,0 +1,39 @@
+ryanhabis@pop-os:~$ la
+65             .bashrc                 Desktop    .gitconfig  .ipython  .lesshst  nbfc-linux  Pictures  Public  .steampath                 .var        .zoom
+75             .cache                  Documents  .gk         .jupyter  .local    .npm        .pki      snap    .steampid                  Videos
+.bash_history  .config                 .dotnet    .gphoto     .klei     .mozilla  .nv         .profile  .ssh    .sudo_as_admin_successful  .vscode
+.bash_logout   CrealityPrint.AppImage  Downloads  .gradle     latex2e   Music     .nvm        .psensor  .steam  Templates                  .wget-hsts
+
+ryanhabis@pop-os:~$ ls
+65  75  CrealityPrint.AppImage  Desktop  Documents  Downloads  latex2e  Music  nbfc-linux  Pictures  Public  snap  Templates  Videos
+
+ryanhabis@pop-os:~$ cd opt/lampp
+bash: cd: opt/lampp: No such file or directory
+
+ryanhabis@pop-os:~$ cd /opt/lampp/mysql
+
+ryanhabis@pop-os:/opt/lampp/mysql$ ls
+README.txt  scripts
+
+ryanhabis@pop-os:/opt/lampp/mysql$ cd
+
+ryanhabis@pop-os:~$ cd /opt/lampp
+
+ryanhabis@pop-os:/opt/lampp$ ls
+apache2  cgi-bin       error   icons    info   lib64     logs                   manual   pear        proftpd         README-wsrep  share       uninstall      xampp
+bin      ctlscript.sh  etc     img      lampp  libexec   man                    modules  php         properties.ini  RELEASENOTES  temp        uninstall.dat
+build    docs          htdocs  include  lib    licenses  manager-linux-x64.run  mysql    phpmyadmin  README.md       sbin          THIRDPARTY  var
+
+ryanhabis@pop-os:/opt/lampp$ ls -a
+.        bin      ctlscript.sh  etc     img      lampp  libexec   man                    modules  php         properties.ini  RELEASENOTES  temp        uninstall.dat
+..       build    docs          htdocs  include  lib    licenses  manager-linux-x64.run  mysql    phpmyadmin  README.md       sbin          THIRDPARTY  var
+apache2  cgi-bin  error         icons   info     lib64  logs      manual                 pear     proftpd     README-wsrep    share         uninstall   xampp
+
+ryanhabis@pop-os:/opt/lampp$ sudo man
+man/        mandb       manpath     man-recode  manual/     
+
+ryanhabis@pop-os:/opt/lampp$ sudo manager-linux-x64.run
+[sudo] password for ryanhabis: 
+sudo: manager-linux-x64.run: command not found
+
+ryanhabis@pop-os:/opt/lampp$ sudo ./manager-linux-x64.run
