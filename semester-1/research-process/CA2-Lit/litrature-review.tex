@@ -1,0 +1,47 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+
+\title{Literature Review — Test Document}
+\author{Ryan Habis}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This short document verifies that Overleaf (or an Overleaf extension) compiles and renders a typical LaTeX file. It includes text, lists, math, and a simple bibliography.
+\end{abstract}
+
+\section{Introduction}
+This is a minimal LaTeX example placed in the file to confirm the editor/compiler integration is functioning.
+
+\section{Content Examples}
+Inline math example: $a^2 + b^2 = c^2$.  
+
+Displayed equation:
+\[
+\int_0^1 x^2 \, dx = \tfrac{1}{3}.
+\]
+
+\subsection{Bullet List}
+\begin{itemize}
+    \item First test item
+    \item Second test item
+    \item Third test item
+\end{itemize}
+
+\section{Conclusion}
+If this file compiles and displays correctly in Overleaf, the extension is working.
+
+\section*{References}
+\begin{thebibliography}{9}
+\bibitem{example}
+A. Author, \textit{An Example Reference}, 2020.
+\end{thebibliography}
+
+\end{document}
