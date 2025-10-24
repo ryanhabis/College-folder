@@ -16,8 +16,8 @@ SELECT * FROM friend WHERE address LIKE "%Chapel St";
 SELECT * FROM friend WHERE telephone LIKE "042%";
 
 -- 5. Bill Daly's address and phone no
-
 SELECT address, telephone FROM friend WHERE name = "Bill Daly";
+
 -- 6. Friends with surname Bloggs and live in the 042 area
 SELECT * FROM friend WHERE name LIKE "%Bloggs" AND telephone LIKE "042%";
 
