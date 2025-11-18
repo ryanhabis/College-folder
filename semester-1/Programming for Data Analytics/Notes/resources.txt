@@ -1,0 +1,2 @@
+Explore various types of data plots
+https://www.datacamp.com/tutorial/types-of-data-plots-and-how-to-create-them-in-python
