@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+<script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.8.1.min.js"></script>
+<script type="text/javascript">
+Bokeh.set_log_level("info");
+</script>
+  </head>
+  <body>
+    <div id="ee78b39a-1d48-4746-9dc2-69f3817bc145" data-root-id="p1583" style="display: contents;"></div>
+  
+    <script type="application/json" id="b1f7c3fb-56e9-477f-8082-2df93b6f5879">
+      {"fc5bff29-d76f-42c9-95a5-6741c299009a":{"version":"3.8.1","title":"Bokeh Application","config":{"type":"object","name":"DocumentConfig","id":"p1649","attributes":{"notifications":{"type":"object","name":"Notifications","id":"p1650"}}},"roots":[{"type":"object","name":"Figure","id":"p1583","attributes":{"x_range":{"type":"object","name":"FactorRange","id":"p1592","attributes":{"factors":["Arsenal","Chelsea","Liverpool","Man City","Man United","Tottenham"]}},"y_range":{"type":"object","name":"DataRange1d","id":"p1585"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1593"},"y_scale":{"type":"object","name":"LinearScale","id":"p1594"},"title":{"type":"object","name":"Title","id":"p1590","attributes":{"text":"Number of goals scored and conceded at home by the top 6"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1628","attributes":{"name":"FTHG","data_source":{"type":"object","name":"ColumnDataSource","id":"p1580","attributes":{"selected":{"type":"object","name":"Selection","id":"p1581","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1582"},"data":{"type":"map","entries":[["HomeTeam",{"type":"ndarray","array":["Arsenal","Chelsea","Liverpool","Man City","Man United","Tottenham"],"shape":[6],"dtype":"object","order":"little"}],["FTHG",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/0tgYGBwBeIUIC4DYncg9gJiAF8oT5QYAAAA"},"shape":[6],"dtype":"int32","order":"little"}],["FTAG",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/1NhYGCQAWIRIJYCYiUgVgBiAFqBucgYAAAA"},"shape":[6],"dtype":"int32","order":"little"}],["HF",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/5vCyMAQCMTWQOwNxAuBOB6IATxkpsQYAAAA"},"shape":[6],"dtype":"int32","order":"little"}],["AF",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/zvMyMCwAogDgNgfiNcAcTUQAwDekE8kGAAAAA=="},"shape":[6],"dtype":"int32","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1629","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1630"}}},"glyph":{"type":"object","name":"VBar","id":"p1625","attributes":{"x":{"type":"field","field":"HomeTeam"},"width":{"type":"value","value":0.7},"bottom":{"type":"expr","expr":{"type":"object","name":"Stack","id":"p1618","attributes":{"fields":[]}}},"top":{"type":"expr","expr":{"type":"object","name":"Stack","id":"p1619","attributes":{"fields":["FTHG"]}}},"line_color":{"type":"value","value":"blue"},"fill_color":{"type":"value","value":"blue"},"hatch_color":{"type":"value","value":"blue"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1626","attributes":{"x":{"type":"field","field":"HomeTeam"},"width":{"type":"value","value":0.7},"bottom":{"type":"expr","expr":{"id":"p1618"}},"top":{"type":"expr","expr":{"id":"p1619"}},"line_color":{"type":"value","value":"blue"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"blue"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"blue"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1627","attributes":{"x":{"type":"field","field":"HomeTeam"},"width":{"type":"value","value":0.7},"bottom":{"type":"expr","expr":{"id":"p1618"}},"top":{"type":"expr","expr":{"id":"p1619"}},"line_color":{"type":"value","value":"blue"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"blue"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"blue"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p1639","attributes":{"name":"FTAG","data_source":{"id":"p1580"},"view":{"type":"object","name":"CDSView","id":"p1640","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1641"}}},"glyph":{"type":"object","name":"VBar","id":"p1636","attributes":{"x":{"type":"field","field":"HomeTeam"},"width":{"type":"value","value":0.7},"bottom":{"type":"expr","expr":{"type":"object","name":"Stack","id":"p1620","attributes":{"fields":["FTHG"]}}},"top":{"type":"expr","expr":{"type":"object","name":"Stack","id":"p1621","attributes":{"fields":["FTHG","FTAG"]}}},"line_color":{"type":"value","value":"red"},"fill_color":{"type":"value","value":"red"},"hatch_color":{"type":"value","value":"red"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1637","attributes":{"x":{"type":"field","field":"HomeTeam"},"width":{"type":"value","value":0.7},"bottom":{"type":"expr","expr":{"id":"p1620"}},"top":{"type":"expr","expr":{"id":"p1621"}},"line_color":{"type":"value","value":"red"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"red"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"red"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1638","attributes":{"x":{"type":"field","field":"HomeTeam"},"width":{"type":"value","value":0.7},"bottom":{"type":"expr","expr":{"id":"p1620"}},"top":{"type":"expr","expr":{"id":"p1621"}},"line_color":{"type":"value","value":"red"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"red"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"red"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1591","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1605"},{"type":"object","name":"WheelZoomTool","id":"p1606","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1607","attributes":{"dimensions":"both","overlay":{"type":"object","name":"BoxAnnotation","id":"p1608","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1614","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1613","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"SaveTool","id":"p1615"},{"type":"object","name":"ResetTool","id":"p1616"},{"type":"object","name":"HelpTool","id":"p1617"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1600","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1601","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1602"},"axis_label":"Number of goals","major_label_policy":{"type":"object","name":"AllLabels","id":"p1603"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1595","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1596"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1597"},"axis_label":"Team","major_label_policy":{"type":"object","name":"AllLabels","id":"p1598"}}}],"center":[{"type":"object","name":"Grid","id":"p1599","attributes":{"axis":{"id":"p1595"}}},{"type":"object","name":"Grid","id":"p1604","attributes":{"dimension":1,"axis":{"id":"p1600"}}},{"type":"object","name":"Legend","id":"p1631","attributes":{"items":[{"type":"object","name":"LegendItem","id":"p1632","attributes":{"label":{"type":"value","value":"Goals scored"},"renderers":[{"id":"p1628"}]}},{"type":"object","name":"LegendItem","id":"p1642","attributes":{"label":{"type":"value","value":"Goals conceded"},"renderers":[{"id":"p1639"}]}}]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('b1f7c3fb-56e9-477f-8082-2df93b6f5879').textContent;
+              const render_items = [{"docid":"fc5bff29-d76f-42c9-95a5-6741c299009a","roots":{"p1583":"ee78b39a-1d48-4746-9dc2-69f3817bc145"},"root_ids":["p1583"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
